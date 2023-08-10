@@ -1,0 +1,545 @@
+ul{
+    padding: 0;
+}
+.header {
+  max-width: 1440px;
+  background-image: url("photo/wing-airplane-with-city-background\ 1.png");
+  background-size: cover; /* Прилаштовує фото, щоб воно повністю заповнювало фон */
+  background-repeat: no-repeat; /* Забороняє повторення фонового зображення */
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1110px;
+}
+.header__container {
+  height: 600px;
+  padding-top: 25px;
+  position: relative;
+}
+.header-line {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  justify-content: space-between;
+}
+.header-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.header-item {
+  font-family: "Poppins", sans-serif;
+  line-height: 21px;
+  font-size: 14px;
+  transition: color 0.3s ease-in-out;
+}
+.header-item:hover {
+  color: #656293;
+  cursor: pointer;
+}
+.header__link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header__link-1 {
+  text-decoration: none;
+  color: #151515;
+  font-family: "Poppins", sans-serif;
+  line-height: 21px;
+  font-size: 14px;
+  padding: 5px 10px;
+  transition: 0.4s ease;
+  border-radius: 5px;
+}
+.header__link-1:hover {
+  cursor: pointer;
+  background-color: #656293;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.header__link-2 {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  line-height: 21px;
+  font-size: 14px;
+  background-color: #656293;
+  border-radius: 5px;
+  padding: 5px 20px;
+  transition: 0.4s ease;
+}
+.header__link-2:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #151515;
+  border-radius: 5px;
+}
+
+.enjoy__r {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 66px;
+  line-height: 77px;
+}
+.enjoy span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 66px;
+  line-height: 77px;
+  color: #656293;
+}
+.enjoy a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #151515;
+}
+.enjoy a::after {
+  content: "\27A4"; /* Це код для символу стрілки (→) */
+  display: inline;
+  padding-left: 5px; /* Відступ зліва від тексту, щоб символ не прилипав до тексту */
+}
+.iluminator {
+  position: absolute;
+  top: 155px;
+  right: -75px;
+}
+
+/* main */
+.img {
+  max-width: 100%;
+}
+.main {
+  max-width: 1440px;
+}
+.main__p {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+.charter {
+  display: flex;
+  gap: 40px;
+  position: relative;
+  margin-bottom: 10%;
+}
+.charter__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.charter__p {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.charter__discription {
+  margin: 0;
+  max-width: 450px;
+  word-wrap: break-word; /* Автоматично переносить слова для заповнення рядків */
+  text-align: justify; /* Вирівнювання тексту по обидва краї блоку */
+  overflow: hidden; /* Забороняємо тексту виходити за межі блоку */
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgba(21, 21, 21, 0.6);
+}
+.background {
+  position: absolute;
+  top: -10%;
+  width: 34%;
+  left: -15%;
+  height: 121%;
+  margin: auto;
+  background-color: rgba(229, 244, 246, 1);
+  border-radius: 0 50px 50px 0;
+  z-index: -1;
+}
+
+.business {
+  display: flex;
+  gap: 40px;
+  flex-direction: row-reverse;
+  position: relative;
+  margin-bottom: 20%;
+}
+.business__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.business__p {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+}
+.business__discription {
+  margin: 0;
+  max-width: 450px;
+  word-wrap: break-word; /* Автоматично переносить слова для заповнення рядків */
+  text-align: justify; /* Вирівнювання тексту по обидва краї блоку */
+  overflow: hidden; /* Забороняємо тексту виходити за межі блоку */
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgba(21, 21, 21, 0.6);
+}
+.background__second {
+  position: absolute;
+  top: -10%;
+  width: 40%;
+  right: -15%;
+  height: 120%;
+  margin: auto;
+  background-color: rgba(229, 244, 246, 1);
+  border-radius: 50px 0 0 50px;
+  z-index: -1;
+}
+.advantages {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 170px;
+}
+
+.card {
+  list-style: none;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(19, 10, 46, 0.13);
+  margin: 10px;
+  max-width: 370px;
+  max-height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.card p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2;
+  margin-top: 5px;
+  font-size: 16px;
+  color: rgba(21, 21, 21, 0.6);
+}
+
+.card div {
+  text-align: center; /* Вирівнюємо текст по центру */
+}
+.plane img {
+  position: absolute;
+  top: 25%;
+  left: 36.5%;
+}
+.luxury {
+  margin-bottom: 70px;
+  background-image: url(photo/Frame.png);
+}
+.luxury__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+}
+.luxury__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 20px;
+}
+.luxury__item {
+  background-color: white;
+  padding: 10px 10px 0px 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(19, 10, 46, 0.13);
+  max-width: 255px;
+  max-height: 250px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.luxury__item:hover {
+  transform: translateY(-10px); /* Зсув елементу вгору на 10px при наведенні */
+}
+.luxury__plane {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+
+
+
+
+.enjoy__jet{
+    display: flex;
+    
+}
+
+.popular {
+  max-width: 400px;
+  max-height: auto;
+  background-color: #f5f5f5;
+  border-radius: 20px 0px 0px 20px;
+  padding: 20px;
+  transition: transform 0.8s ease;
+  cursor: pointer;
+  width: 400px;
+}
+.popular:hover{
+    background-color: #656293;
+    transform: translateY(-20px);
+    border-radius: 20px 20px 20px 20px;
+
+}
+.popular:hover .popular__title {
+    color: #ffffff; /* Змініть на бажаний колір */
+  }
+  .popular:hover .popular__item {
+    color: #ffffff; /* Змініть на бажаний колір */
+  }
+
+.popular__2{
+    max-width: 400px;
+    max-height: auto;    background-color: #f5f5f5;
+    border-radius: 20px 0px 0px 20px;
+    padding: 20px;
+    transition: transform 0.8s ease;
+    cursor: pointer;
+    width: 400px;
+  }
+  .popular__2:hover{
+    background-color: #656293;
+    transform: translateY(-20px);
+    border-radius: 20px 20px 20px 20px;
+  }
+  .popular__2:hover .popular__title {
+    color: #ffffff; /* Змініть на бажаний колір */
+  }
+  .popular__2:hover .popular__item {
+    color: #ffffff; /* Змініть на бажаний колір */
+  }
+  .popular__3 {
+    max-width: 400vw;
+    max-height: auto;
+        background-color: #f5f5f5;
+    border-radius: 0px 20px 20px 0px;
+    padding: 20px;
+    transition: transform 0.8s ease;
+    cursor: pointer;
+    width: 400px;
+  }
+  .popular__3:hover{
+    background-color: #656293;
+    transform: translateY(-20px);
+    border-radius: 20px 20px 20px 20px;
+  }
+  .popular__3:hover .popular__title {
+    color: #ffffff; /* Змініть на бажаний колір */
+  }
+  .popular__3:hover .popular__item {
+    color: #ffffff; /* Змініть на бажаний колір */
+  }
+
+.popular__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.popular__advant {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.popular__list {
+  list-style: none;
+  gap: 30px;
+}
+.popular__item {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #151515;
+  margin-bottom: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.prise {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #161616;
+}
+.prise span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  color: #161616;
+}
+.chosebtn {
+  max-width: 350px;
+  max-height: 64px;
+  border-radius: 12px;
+  width: 100%; /* Розтягнути на всю ширину батька */
+  padding: 10px; /* Зміна внутрішніх відступів на 0 */
+  border: none;
+  color: #ffffff;
+  background-color: #656293;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+
+.popular:hover .chosebtn{
+    color: #656293;
+    background-color: #ffffff;
+}
+.popular__2:hover .chosebtn{
+    color: #656293;
+    background-color: #ffffff;
+}
+.popular__3:hover .chosebtn{
+    color: #656293;
+    background-color: #ffffff;
+}
+
+.dashed-line {
+  border-top: 1px dashed black; /* Встановлення пунктирної лінії */
+  margin: 20px 0; /* Відступи навколо лінії */
+  width: 90%; /* Збільшення довжини пунктирних ліній */
+  margin: 20px auto; /* Відступи та центрування */
+  border-radius: 50%;
+}
+.enjoy__price {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Вирівнювання по центру по горизонталі */
+  text-align: center;
+}
+
+.enjoy__jet{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    
+}
+
+.elite{
+  margin-bottom: 70px;
+} 
+
+.elite h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+ text-align: center;
+}
+
+
+.planephoto{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+footer {
+  background-color: #656293;
+  margin: 0 auto;
+  max-width: 1440px;
+  
+}
+.footer__line{
+  border-top: 1px solid grey;
+    margin: 20px 0;
+    margin: 10px auto;
+}
+.footerlogo{
+display: flex;
+justify-content: center;
+padding: 45px 0px 15px 0px;
+}
+.footer__info{
+  display: flex;
+  justify-content: space-between;
+}
+.info__list{
+  list-style: none;
+  display: flex;
+    gap: 30px;
+  
+}
+.info__text{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px
+}
+
+.copyright{
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px
+}
